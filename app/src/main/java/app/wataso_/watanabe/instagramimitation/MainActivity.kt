@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         lateinit var dataLists: ArrayList<DataList>
+        //actionBar.setTitle()
+        //actionBar.setColor
 
         //recyclerviewの実装
         val recyclerView = findViewById<View>(R.id.recyclerView) as RecyclerView
